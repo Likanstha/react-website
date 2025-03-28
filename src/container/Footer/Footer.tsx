@@ -2,7 +2,10 @@ import logo from "../../assets/react.svg";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col items-center justify-center bg-gray-900 text-white py-16 px-6">
+    <div
+      className="flex flex-col items-center justify-center bg-gray-900 text-white py-16 px-6"
+      id="contact"
+    >
       <div className="text-center mb-12 w-full">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight gradient-text">
           Do you want to step into the future before others

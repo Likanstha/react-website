@@ -11,10 +11,10 @@ const Menu = () => (
       <a href="#features">Features</a>
     </p>
     <p>
-      <a href="#gallery">Gallery</a>
+      <a href="#brand">Gallery</a>
     </p>
     <p>
-      <a href="#pricing">Pricing</a>
+      <a href="#blog">Blog</a>
     </p>
     <p>
       <a href="#contact">Contact</a>
@@ -26,7 +26,7 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <nav className="flex justify-between items-center p-6 bg-gray-900 text-white">
+    <nav className="flex justify-between items-center p-6 text-white">
       {/* Logo & Links */}
       <div className="flex items-center">
         <img src={logo} alt="3D Logo" className="w-16 h-auto" />

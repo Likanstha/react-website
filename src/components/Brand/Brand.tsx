@@ -6,7 +6,7 @@ import shopify from "../../assets/shopify.png";
 
 const Brand = () => {
   return (
-    <div className="flex flex-wrap justify-center items-center py-8">
+    <div className="flex flex-wrap justify-center items-center py-8" id="brand">
       <div className="flex justify-center items-center max-w-[150px] min-w-[120px] m-4">
         <img src={shopify} alt="shopify" className="w-full h-auto" />
       </div>
