@@ -4,6 +4,7 @@ import Navbar from "./components/NavBar/NavBar";
 import ThreeDModel from "./container/3DModel/3DModel";
 import Footer from "./container/Footer/Footer";
 import Header from "./container/Header/Header";
+import KeyFeature from "./container/KeyFeature/KeyFeature";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         </div>
         <Brand />
         <ThreeDModel />
+        <KeyFeature />
         <Footer />
       </div>
     </>
