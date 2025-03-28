@@ -15,12 +15,12 @@ const Brand = () => {
       </div>
       <div className="flex justify-center items-center max-w-[150px] min-w-[120px] m-4">
         <img src={dropbox} alt="dropbox" className="w-full h-auto" />
-        <div className="flex justify-center items-center max-w-[150px] min-w-[120px] m-4">
-          <img src={google} alt="google" className="w-full h-auto" />
-        </div>
-        <div className="flex justify-center items-center max-w-[150px] min-w-[120px] m-4">
-          <img src={slack} alt="slack" className="w-full h-auto" />
-        </div>
+      </div>
+      <div className="flex justify-center items-center max-w-[150px] min-w-[120px] m-4">
+        <img src={google} alt="google" className="w-full h-auto" />
+      </div>
+      <div className="flex justify-center items-center max-w-[150px] min-w-[120px] m-4">
+        <img src={slack} alt="slack" className="w-full h-auto" />
       </div>
     </div>
   );

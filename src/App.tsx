@@ -1,6 +1,8 @@
 import "./App.css";
 import Brand from "./components/Brand/Brand";
 import Navbar from "./components/NavBar/NavBar";
+import ThreeDModel from "./container/3DModel/3DModel";
+import Footer from "./container/Footer/Footer";
 import Header from "./container/Header/Header";
 
 function App() {
@@ -12,6 +14,8 @@ function App() {
           <Header />
         </div>
         <Brand />
+        <ThreeDModel />
+        <Footer />
       </div>
     </>
   );
